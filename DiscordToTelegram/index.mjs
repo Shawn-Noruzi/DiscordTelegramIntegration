@@ -6,8 +6,8 @@ import fetch from "node-fetch";
 let lastMessageId = null; // To keep track of the last message checked
 const DISCORD_AUTH =
   "NDY1OTg1NjY4NDU2MzgyNDY3.GWs8hH.6bmD0sNTp6o0GWxHhaApVh6hC2J2RHHGcD0ZFY"; // Not the bot token
-// const CHANNEL_ID = "1088103385674285066"; //infinintyAI
-const CHANNEL_ID = "1107797248676483144"; //luca ch id
+const CHANNEL_ID = "1088103385674285066"; //infinintyAI
+// const CHANNEL_ID = "1107797248676483144"; //luca ch id
 const TELEGRAM_TOKEN = "6640266877:AAH0-fiYqVBCcTM5PrbIWEBYNuEUeAg0COo";
 const TELEGRAM_CHAT_ID = "1611894170";
 
@@ -106,4 +106,4 @@ const checkForNewImageWithYellowPixel = async () => {
 
 
 // Check for new messages with yellow pixels every 10 seconds
-setInterval(checkForNewImageWithYellowPixel, 5000);
+setInterval(checkForNewImageWithYellowPixel, 10000);
